@@ -63,8 +63,9 @@ resp.sendRedirect("register.jsp");
 }else {
 //System.out.println("Please Check Agree & Terms Condition");
 
-session.setAttribute("failedMsg","Please Check Out");
+//session.setAttribute("failedMsg","Please Check Out");
 resp.sendRedirect("register.jsp");
+
 }
 
 
